@@ -1,20 +1,21 @@
 <html>
     <head>
-        <link href="css/style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        
         <div>
         <img src="https://fontmeme.com/images/instagram-new-logo.png"width="100px"/>
+        <input type="search" value="검색"/>
         </div>
-        <div>
-            <div id ="profile">
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/profile.jpg?raw=true" width="50px"/>
-            <input type="search" value="검색"/>
-            <div>
-                <h2>LEECY</h2>
-                <button>프로필편집</button>
+        <div id ="profile">
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.jpg"/>
             </div>
+            <div id="profile_info">
+                <div id="id">
+                    <span>LEECY_</span>
+                </div>
+                <button>프로필 편집</button>
             </div>
         </div>
         <div>
@@ -28,56 +29,57 @@
                 <a href ="https://github.com/lcy23141241432">
                     lcy23141241432.github.io
                 </a>
-            </p>
-        </div>
-        <div>
-            <div>
+            </p></div>
+            <div id="highlight_area">
                 <div class="highlight">
-                <div>
-                    <img src ="https://github.com/needleworm/instagram/blob/main/image/hl%201.jpg?raw=true" height="35px"/>
+                    <div class="highlight_pic">
+                        <img class="circle_pic" src ="image/hl 1.jpg" />
+                    </div>
+                    <div>
+                        😎
+                    </div>
                 </div>
-                <div>
-                    😎
-                </div>
-                </div>
-            </div>
-            <div class="highlight">
-            <div>
-                <div>
-                    <img src ="https://github.com/needleworm/instagram/blob/main/image/hl%202.jpg?raw=true" height="35px"/>
-                </div>
-                <div>
-                    😍
+                <div class="highlight">
+                    <div class="highlight_pic">
+                        <img class="circle_pic" src ="image/hl 2.jpg" />
+                    </div>
+                    <div>
+                        😍
+                    </div>
+                    <div></div>
                 </div>
             </div>
+            <div id="stat_bar">
+                <div class="stat">
+                    게시물<br/>
+                    133
+                </div>
+                <div class="stat">
+                    팔로워<br/>
+                    408
+                </div>
+                <div class="stat">
+                    팔로우<br/>
+                    189
+                </div>
             </div>
-        </div>
-        <div>
-            <div>
-                게시물<br/>
-                133
-            </div>
-            <div>
-                팔로워<br/>
-                408
-            </div>
-            <div>
-                팔로우<br/>
-                189
-            </div>
-        </div>
         <div>아이콘이 들어갈 자리</div>
         <div>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/1.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/2.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/3.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/4.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/5.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/6.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/7.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/8.jpg?raw=true" width="32%"/>
-            <img src ="https://github.com/needleworm/instagram/blob/main/image/thumnails/9.jpg?raw=true" width="32%"/>
-        
+            <div class="thumbnail_grid">
+                <img src ="image/thumbnails/1.jpg" class="thumbnail"/>
+                <img src ="image/thumbnails/2.jpg" class="thumbnail"/>
+                <img src ="image/thumbnails/3.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src ="image/thumbnails/4.jpg" class="thumbnail"/>
+                <img src ="image/thumbnails/5.jpg" class="thumbnail"/>
+                <img src ="image/thumbnails/6.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src ="image/thumbnails/7.jpg" class="thumbnail"/>
+                <img src ="image/thumbnails/8.jpg" class="thumbnail"/>
+                <img src ="image/thumbnails/9.jpg" class="thumbnail"/>
+            </div>
         </div>
     </body>
 </html>
