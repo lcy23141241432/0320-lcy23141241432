@@ -125,3 +125,10 @@ i{
 .selected{
     border-bottom: solid gray 3px;
 }
+
+  
+#mybtn{
+    background-color : #fff;
+    color: #b00;
+    font-size: 2vw;
+}
